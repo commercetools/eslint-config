@@ -14,7 +14,7 @@ module.exports = {
 
   rules: {
     'react/display-name': 0,
-    'react/jsx-boolean-value': 2,
+    'react/jsx-boolean-value': [ 2, 'always' ],
     'react/jsx-no-undef': 2,
     'react/jsx-sort-props': 0,
     'react/jsx-uses-react': 2,
