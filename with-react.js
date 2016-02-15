@@ -16,7 +16,7 @@ module.exports = {
     'react/display-name': 0,
     'react/jsx-boolean-value': [ 2, 'always' ],
     'react/jsx-key': 2,
-    'react/jsx-no-bind': 2,
+    'react/jsx-no-bind': [ 2, { ignoreRefs: true, allowArrowFunctions: true } ],
     'react/jsx-no-undef': 2,
     'react/jsx-sort-props': 0,
     'react/jsx-uses-react': 2,

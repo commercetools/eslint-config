@@ -38,7 +38,7 @@ module.exports = {
     'space-after-keywords': [ 2, 'always' ],
     'space-before-blocks': [ 2, 'always' ],
     'space-before-function-paren': [ 2, 'always' ],
-    'no-warning-comments': [1, { terms: [ 'todo', 'fixme' ], location: 'anywhere' }],
+    'no-warning-comments': [ 1, { terms: [ 'todo', 'fixme' ], location: 'anywhere' } ],
     'space-return-throw-case': 2,
     strict: 0,
     'vars-on-top': 2,
