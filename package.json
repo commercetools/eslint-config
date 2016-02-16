@@ -15,8 +15,8 @@
   },
   "homepage": "https://github.com/commercetools/eslint-config",
   "peerDependencies": {
-    "eslint": ">=1.4",
-    "eslint-plugin-react": ">=3.0"
+    "eslint": ">=2.0",
+    "eslint-plugin-react": ">=4.0"
   },
   "keywords": [
     "eslint",

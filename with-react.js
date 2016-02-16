@@ -4,8 +4,10 @@ module.exports = {
 
   plugins: ['react'],
 
-  ecmaFeatures: {
-    jsx: true
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    }
   },
 
   env: {
@@ -13,10 +15,13 @@ module.exports = {
   },
 
   rules: {
-    'react/display-name': 0,
+    'react/display-name': 2,
     'react/jsx-boolean-value': [ 2, 'always' ],
+    'react/jsx-equals-spacing': [ 2, 'never' ],
     'react/jsx-key': 2,
     'react/jsx-no-bind': [ 2, { ignoreRefs: true, allowArrowFunctions: true } ],
+    'react/jsx-no-duplicate-props': 2,
+    'react/jsx-no-literals': 2,
     'react/jsx-no-undef': 2,
     'react/jsx-sort-props': 0,
     'react/jsx-uses-react': 2,

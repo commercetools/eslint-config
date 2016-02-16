@@ -2,8 +2,9 @@ module.exports = {
 
   parser: 'babel-eslint',
 
-  ecmaFeatures: {
-    modules: true
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module'
   },
 
   env: {
@@ -21,6 +22,7 @@ module.exports = {
     'dot-notation': 0,
     'eol-last': 2,
     eqeqeq: 2,
+    'keyword-spacing': 2,
     'max-len': [ 2, 80, 4 ],
     'new-cap': [ 2, { capIsNew: false } ],
     'no-eq-null': 2,
@@ -35,11 +37,9 @@ module.exports = {
     'object-curly-spacing': [ 2, 'always' ],
     quotes: [ 2, 'single' ],
     semi: [ 2, 'never' ],
-    'space-after-keywords': [ 2, 'always' ],
     'space-before-blocks': [ 2, 'always' ],
     'space-before-function-paren': [ 2, 'always' ],
     'no-warning-comments': [ 1, { terms: [ 'todo', 'fixme' ], location: 'anywhere' } ],
-    'space-return-throw-case': 2,
     strict: 0,
     'vars-on-top': 2,
     indent: [ 2, 2 ]
