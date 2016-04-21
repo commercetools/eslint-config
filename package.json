@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-commercetools",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Commercetools's eslint config, following our styleguide",
   "main": "index.js",
   "private": false,
@@ -16,7 +16,10 @@
   "homepage": "https://github.com/commercetools/eslint-config",
   "peerDependencies": {
     "eslint": ">=2.0",
-    "eslint-plugin-react": ">=4.0"
+    "eslint-config-airbnb": ">=7.0",
+    "eslint-plugin-jsx-a11y": ">=1.0",
+    "eslint-plugin-react": ">=4.0",
+    "babel-eslint": ">=6.0"
   },
   "keywords": [
     "eslint",

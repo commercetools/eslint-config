@@ -7,6 +7,10 @@ module.exports = {
     sourceType: 'module'
   },
 
+  extends: [
+    'airbnb/base'
+  ],
+
   env: {
     es6: true,
     mocha: true,
@@ -37,6 +41,7 @@ module.exports = {
     'object-curly-spacing': [ 2, 'always' ],
     quotes: [ 2, 'single' ],
     semi: [ 2, 'never' ],
+    'no-unexpected-multiline': 2,
     'space-before-blocks': [ 2, 'always' ],
     'space-before-function-paren': [ 2, 'always' ],
     'no-warning-comments': [ 1, { terms: [ 'todo', 'fixme' ], location: 'anywhere' } ],

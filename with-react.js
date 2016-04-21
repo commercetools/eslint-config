@@ -1,6 +1,9 @@
 module.exports = {
 
-  extends: 'commercetools',
+  extends: [
+    'airbnb/base',
+    'commercetools'
+  ],
 
   plugins: ['react'],
 
