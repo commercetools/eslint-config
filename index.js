@@ -37,7 +37,6 @@ module.exports = {
     'no-undef': 2,
     'no-underscore-dangle': 0,
     'no-unused-vars': 2,
-    'no-var': 2,
     'object-curly-spacing': [ 2, 'always' ],
     quotes: [ 2, 'single' ],
     semi: [ 2, 'never' ],
