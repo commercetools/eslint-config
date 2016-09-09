@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-commercetools",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Commercetools's eslint config, following our styleguide",
   "main": "index.js",
   "private": false,
@@ -24,7 +24,10 @@
     "eslint-plugin-jsx-a11y": "^2.2.1",
     "eslint-plugin-react": "^6.2.0"
   },
-  "files": ["index.js", "with-react.js"],
+  "files": [
+    "index.js",
+    "with-react.js"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
