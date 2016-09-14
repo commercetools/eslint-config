@@ -2,19 +2,19 @@ module.exports = {
 
   extends: [
     'airbnb/base',
-    'commercetools'
+    'commercetools',
   ],
 
   plugins: ['react'],
 
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
 
   env: {
-    browser: true
+    browser: true,
   },
 
   rules: {
@@ -38,7 +38,7 @@ module.exports = {
     'react/prop-types': 2,
     'react/react-in-jsx-scope': 2,
     'react/self-closing-comp': 2,
-    'react/wrap-multilines': 2
-  }
+    'react/wrap-multilines': 2,
+  },
 
-};
+}

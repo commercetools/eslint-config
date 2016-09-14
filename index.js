@@ -4,17 +4,17 @@ module.exports = {
 
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module'
+    sourceType: 'module',
   },
 
   extends: [
-    'airbnb/base'
+    'airbnb/base',
   ],
 
   env: {
     es6: true,
     mocha: true,
-    node: true
+    node: true,
   },
 
   rules: {
@@ -43,11 +43,14 @@ module.exports = {
     'no-unexpected-multiline': 2,
     'space-before-blocks': [ 2, 'always' ],
     'space-before-function-paren': [ 2, 'always' ],
-    'no-warning-comments': [ 1, { terms: [ 'todo', 'fixme' ], location: 'anywhere' } ],
+    'no-warning-comments': [ 1,
+                            { terms:
+                                [ 'todo', 'fixme' ],
+                                location: 'anywhere' },
+                            ],
     strict: 0,
     'vars-on-top': 2,
     indent: [ 2, 2 ],
     "import/no-extraneous-dependencies": ["error", {"devDependencies": ['**/*.test.js', '**/*.spec.js']}]
   }
-
-};
+}
