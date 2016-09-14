@@ -43,5 +43,25 @@
     "commercetools",
     "javascript",
     "styleguide"
-  ]
+  ],
+  "scripts": {
+    "lint": "./scripts/lint .",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    },
+    "ghooks": {
+      "commit-msg": "validate-commit-msg",
+      "pre-commit": "./scripts/lint-staged-files"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^2.8.6",
+    "cz-conventional-changelog": "^1.2.0",
+    "ghooks": "^1.3.2",
+    "validate-commit-msg": "^2.8.0"
+  }
 }
