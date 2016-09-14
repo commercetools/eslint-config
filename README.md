@@ -3,7 +3,9 @@
 # eslint-config-commercetools
 
 [![David Dependencies Status][david-icon]][david]
+[![Travis Build Status][travis-icon]][travis]
 [![David devDependencies Status][david-dev-icon]][david-dev]
+[![David peerDependencies Status][david-peer-icon]][david-peer]
 
 This package provides Commercetools's .eslintrc as an extensible shared config
 
@@ -50,11 +52,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for info on contributing to eslint-config
 Licensed under the [MIT LICENSE](LICENSE)
 
 [commercetools]: https://commercetools.com/
-[travis]: https://travis-ci.org/commercetools/nodejs-boilerplate
-[travis-icon]: https://img.shields.io/travis/commercetools/nodejs-boilerplate/master.svg?style=flat-square
-[codecov]: https://codecov.io/gh/commercetools/nodejs-boilerplate
-[codecov-icon]: https://img.shields.io/codecov/c/github/commercetools/nodejs-boilerplate.svg?style=flat-square
-[david]: https://david-dm.org/commercetools/nodejs-boilerplate
-[david-icon]: https://img.shields.io/david/commercetools/nodejs-boilerplate.svg?style=flat-square
-[david-dev]: https://david-dm.org/commercetools/nodejs-boilerplate?type=dev
-[david-dev-icon]: https://img.shields.io/david/dev/commercetools/nodejs-boilerplate.svg?style=flat-square
+[travis]: https://travis-ci.org/commercetools/eslint-config
+[travis-icon]: https://img.shields.io/travis/commercetools/eslint-config/master.svg?style=flat-square
+[codecov]: https://codecov.io/gh/commercetools/eslint-config
+[codecov-icon]: https://img.shields.io/codecov/c/github/commercetools/eslint-config.svg?style=flat-square
+[david]: https://david-dm.org/commercetools/eslint-config
+[david-icon]: https://img.shields.io/david/commercetools/eslint-config.svg?style=flat-square
+[david-dev]: https://david-dm.org/commercetools/eslint-config?type=dev
+[david-peer]: https://david-dm.org/commercetools/eslint-config?type=peer
+[david-dev-icon]: https://img.shields.io/david/dev/commercetools/eslint-config.svg?style=flat-square
+[david-peer-icon]: https://img.shields.io/david/peer/commercetools/eslint-config.svg?style=flat-square
