@@ -9,6 +9,14 @@
 
 This package provides Commercetools's .eslintrc as an extensible shared config
 
+Table of Contents
+=================
+
+  * [eslint-config-commercetools](#eslint-config-commercetools)
+    * [Usage](#usage)
+    * [Contributing](#contributing)
+    * [License](#license)
+
 ## Usage
 Add it as an npm dev-dependency
 
