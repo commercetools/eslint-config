@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-commercetools",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "Commercetools's eslint config, following our styleguide",
   "main": "index.js",
   "private": false,
@@ -18,7 +18,6 @@
     "babel-eslint": "^6.1.2",
     "eslint": "^3.4.0",
     "eslint-config-airbnb": "^11.0.0",
-    "eslint-formatter-pretty": "^0.3.1",
     "eslint-plugin-import": "^1.15.0",
     "eslint-plugin-jsx-a11y": "^2.2.1",
     "eslint-plugin-react": "^6.2.0"
@@ -61,6 +60,7 @@
   "devDependencies": {
     "commitizen": "^2.8.6",
     "cz-conventional-changelog": "^1.2.0",
+    "eslint-formatter-pretty": "^1.0.0",
     "ghooks": "^1.3.2",
     "validate-commit-msg": "^2.8.0"
   }
