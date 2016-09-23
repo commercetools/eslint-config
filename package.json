@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-commercetools",
-  "version": "3.2.2",
+  "version": "3.3.0",
   "description": "Commercetools's eslint config, following our styleguide",
   "main": "index.js",
   "private": false,
