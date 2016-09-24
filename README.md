@@ -6,7 +6,7 @@
 [![David devDependencies Status][david-dev-icon]][david-dev]
 [![David peerDependencies Status][david-peer-icon]][david-peer]
 
-This package provides Commercetools's .eslintrc as an extensible shared config
+This package provides Commercetools's .eslintrc as an extensible shared config, based on [Airbnb eslint config](https://www.npmjs.com/package/eslint-config-airbnb).
 
 Table of Contents
 =================
