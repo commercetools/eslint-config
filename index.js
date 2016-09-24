@@ -44,10 +44,11 @@ module.exports = {
     'space-before-blocks': [ 2, 'always' ],
     'space-before-function-paren': [ 2, 'always' ],
     'no-warning-comments': [ 1,
-                            { terms:
-                                [ 'todo', 'fixme' ],
-                                location: 'anywhere' },
-                            ],
+      {
+        terms: [ 'todo', 'fixme' ],
+        location: 'anywhere',
+      },
+    ],
     strict: 0,
     'vars-on-top': 2,
     indent: [ 2, 2 ],
