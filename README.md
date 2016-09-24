@@ -17,19 +17,19 @@ Table of Contents
     * [License](#license)
 
 ## Usage
-Add it as an npm dev-dependency
+Add it as an npm devDependency, as well as all the necessary [peerDependencies](https://nodejs.org/en/blog/npm/peer-dependencies/).
 
 ```bash
-$ npm i eslint-config-commercetools --save-dev
+$ npm install --save-dev eslint-config-commercetools eslint@^#.#.# eslint-config-airbnb@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
 ```
-or add this to your package.json
 
-```json
-{
-  "devDependencies": {
-    "eslint-config-commercetools": "latest"
-  }
-}
+You can alternatively run this script, which basically produces the same command above:
+
+```bash
+(
+  export PKG=eslint-config-commercetools;
+  npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
+)
 ```
 
 Create a `.eslintrc` file with
