@@ -20,7 +20,7 @@ Table of Contents
 Add it as an npm devDependency, as well as all the necessary [peerDependencies](https://nodejs.org/en/blog/npm/peer-dependencies/).
 
 ```bash
-$ npm install --save-dev eslint-config-commercetools eslint@^#.#.# eslint-config-airbnb@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
+$ npm install --save-dev eslint-config-commercetools eslint@^#.#.# eslint-config-airbnb@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-formatter-pretty@^#.#.#
 ```
 
 You can alternatively run this script, which basically produces the same command above:
