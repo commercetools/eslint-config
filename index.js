@@ -51,7 +51,7 @@ module.exports = {
     ],
     strict: 0,
     'vars-on-top': 2,
-    indent: [ 2, 2 ],
+    "indent": [2, 2, {"SwitchCase": 1}],
     'import/no-extraneous-dependencies': [
       'error', {
         devDependencies: ['**/*.test.js', '**/*.spec.js'],
