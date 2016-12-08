@@ -2,9 +2,7 @@
 
 # eslint-config-commercetools
 
-[![David Dependencies Status][david-icon]][david]
-[![David devDependencies Status][david-dev-icon]][david-dev]
-[![David peerDependencies Status][david-peer-icon]][david-peer]
+[![NPM](https://img.shields.io/npm/v/eslint-config-commercetools.svg)](https://www.npmjs.com/package/eslint-config-commercetools)
 
 This package provides Commercetools's .eslintrc as an extensible shared config, based on [Airbnb eslint config](https://www.npmjs.com/package/eslint-config-airbnb).
 
@@ -59,9 +57,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for info on contributing to eslint-config
 Licensed under the [MIT LICENSE](LICENSE)
 
 [commercetools]: https://commercetools.com/
-[david]: https://david-dm.org/commercetools/eslint-config
-[david-icon]: https://img.shields.io/david/commercetools/eslint-config.svg?style=flat-square
-[david-dev]: https://david-dm.org/commercetools/eslint-config?type=dev
-[david-peer]: https://david-dm.org/commercetools/eslint-config?type=peer
-[david-dev-icon]: https://img.shields.io/david/dev/commercetools/eslint-config.svg?style=flat-square
-[david-peer-icon]: https://img.shields.io/david/peer/commercetools/eslint-config.svg?style=flat-square
