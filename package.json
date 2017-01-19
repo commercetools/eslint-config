@@ -17,9 +17,9 @@
   "peerDependencies": {
     "eslint": ">=3",
     "babel-eslint": ">=7",
-    "eslint-config-airbnb": ">=13",
+    "eslint-config-airbnb": ">=14",
     "eslint-plugin-import": ">=2",
-    "eslint-plugin-jsx-a11y": ">=2",
+    "eslint-plugin-jsx-a11y": ">=3",
     "eslint-plugin-react": ">=6"
   },
   "files": [
@@ -37,28 +37,26 @@
   "scripts": {
     "lint": "./scripts/lint .",
     "test": "npm run lint",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "commitmsg": "validate-commit-msg",
+    "precommit": "./scripts/lint-staged-files"
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
-    },
-    "ghooks": {
-      "commit-msg": "validate-commit-msg",
-      "pre-commit": "./scripts/lint-staged-files"
     }
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
     "commitizen": "^2.8.6",
     "cz-conventional-changelog": "^1.2.0",
-    "eslint": "^3.11.1",
+    "eslint": "^3.13.1",
     "eslint-config-airbnb": "^14.0.0",
     "eslint-formatter-pretty": "^1.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
-    "eslint-plugin-react": "^6.8.0",
-    "ghooks": "^2.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "husky": "^0.12.0",
     "validate-commit-msg": "^2.8.0"
   }
 }
