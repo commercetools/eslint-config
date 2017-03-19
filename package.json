@@ -20,7 +20,7 @@
     "eslint-config-airbnb": ">=14",
     "eslint-plugin-import": ">=2",
     "eslint-plugin-jsx-a11y": ">=3",
-    "eslint-plugin-react": ">=6"
+    "eslint-plugin-react": ">=6.10.2"
   },
   "files": [
     "index.js",
