@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/commercetools/eslint-config",
   "peerDependencies": {
-    "eslint": ">=3",
+    "eslint": ">=4.0.0",
     "babel-eslint": ">=7",
     "eslint-config-airbnb": ">=14",
     "eslint-plugin-import": ">=2",
